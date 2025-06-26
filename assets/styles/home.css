@@ -24,27 +24,101 @@ html {
 
 .cabecalho {
     display: flex;
-    background-color: black;
+    /* background-color: black; */
     justify-content: space-between;
     align-items: center;
-    height: 300px;
+    height: 120px;
+    /* margin-left: 2rem; */
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: black;
+    
 
 }
+
 .left-cabecalho {
 
-    background-color:chartreuse;
-    width: 50%;
+    /* background-color:chartreuse; */
+    /* width: 50%; */
     height: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+    
+}
+.right-cabecalho {
+    /* background-color: chocolate; */
+    height: 100%;
+    /* width: 50%; */
+    display: flex;
+    padding-top: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+.left-cabecalho img {
+    height: 35px;
+
+}
+.linha-1 {
+
+    display: flex;
+    gap: 1rem;
+}
+.linha-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+
+}
+.linha-2 img {
+height: 30px;
+
+}
+.pesquisar {
+    width: 30vw;
+}
+.main-banner {
+    background-color:#00cfff ;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.titulos {
+    background-color: blue;
+    width: 100%;
+    text-align: center;
+ }
+
+.botao-monitor  {
+
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;,
+}
+
+.botao-monitor img {
+
+    height: 200px;
+
+
+}
+
+.botao-branco {
+
+    border-style: solid;
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+    margin-left: 50px;
     
 }
 
-
-.content-cabecalho {
-
-    background-color: brown;
-    width: 100%;
-    height: 300px;
-}
 .bottoes {
     display: flex;
     gap: 15px;
@@ -69,14 +143,7 @@ html {
     
 }
 
-.main-banner {
-    background-color:#00cfff ;
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  
-}
+
 .input-trolley {
     display: flex;
     justify-content: space-between;
@@ -89,11 +156,7 @@ html {
 }
 
 
-.titulos {
-   background-color: blue;
-   width: 100%;
-   text-align: center;
-}
+
 .titulos h1 {
 font-size:3rem;
 padding-top: 2rem;
@@ -103,9 +166,7 @@ padding-top: 2rem;
     font-size: 1rem;
 }
 
-.main-banner h2 { 
-    margin-bottom: 80px;
-}
+
 .h3 {
     font: size 1.8rem;
     color: black;
@@ -120,7 +181,7 @@ padding-top: 2rem;
 }
 
 .item-column {
-    float: left;
+
     width: 20%;
     padding: 10px;
     display: flex;
